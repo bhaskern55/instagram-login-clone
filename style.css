@@ -1,0 +1,100 @@
+*{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Instagram Sans UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        .img-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 69px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: center;
+            border-radius: 2px;
+        }
+        input{
+            height: 35px;
+            width: 260px;
+            padding-left: 10px;
+        }
+        .login{
+            height: 35px;
+            width: 260px;
+            border-radius: 6px;
+            background-color: rgb(52 65 175);
+            color: white;
+            border: none;
+        }
+        .or-container{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            gap: 10px;
+        }
+        .or-container .same{
+            width: 100%;
+            border-bottom: solid 1px grey;
+        }
+        .down{
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-top: 30px;
+        }
+        .facebook-container{
+             margin-top: 20px;
+            /* background-color: black; */
+            /* margin-right: 20px;  */
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .facebook-container svg,.fb{
+            color: blue;
+        }
+        a{
+            text-decoration: none;
+        }
+        .pass:hover{
+            text-decoration: underline;
+
+        }
+        #sign{
+            /* color: rgb(var(--ig-colors-button-borderless-text)); */
+            color: rgb(52 65 175);
+            font-weight:620;
+        }
+        .pass{
+            color: black;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+        .footer{
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        .language-select{
+            display: flex;
+            gap: 14px;
+        }
+        .footer-1{
+            word-spacing: 5px;
+            font-size: 15px;
+        }
+        .container{
+            margin-top: 69px;
+        }
+
+        form svg{
+            margin-bottom: 20px;
+        }
